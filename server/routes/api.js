@@ -6,33 +6,11 @@ const users = require('../db/users')
 const router = express.Router()
 router.use(bodyParser.json())
 
-router.post('/signin',
-  signIn,
-  auth.issueJwt
-)
+// router.post('/signin',
+//   signIn,
+//   auth.issueJwt
+// )
 
-router.post('/register',
-  register,
-  auth.issueJwt
-)
-
-function signIn (req, res, next) {
-  users.getByName(req.body.username)
-    .then(user => {
-      return user || invalidCredentials(res)
-    })
-    .then(user => {
-      return user && crypto.verifyUser(user.hash, req.body.password)
-    })
-    .then(isValid => {
-      return isValid ? next() : invalidCredentials(res)
-    })
-    .catch(() => {
-      res.status(400).send({
-        errorType: 'DATABASE_ERROR'
-      })
-    })
-}
 
 function register (req, res, next) {
   users.exists(req.body.username)

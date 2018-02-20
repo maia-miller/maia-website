@@ -1,0 +1,33 @@
+.coverpage, .work, .cv, .footer {
+  background-color: lightblue;
+}
+
+.about, .embarassing, .contact {
+  background-color: #cccccc;
+}
+
+.testimonial {
+  background-color: beige;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#vid-background {
+    position: absolute;
+    max-width: 100%;
+    max-height: 50%;
+}
+
+.content {
+    position: absolute;
+    /* background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 62px; */
+    z-index: 1;
+}
