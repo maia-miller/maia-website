@@ -2,7 +2,7 @@ import React from 'react'
 
 import Coverpage from './Coverpage'
 import About from './About'
-import Projects from './Projects'
+import MyWork from './MyWork'
 import Embarrassing from './Embarrassing'
 import CV from './CV'
 import Contact from './Contact'
@@ -19,7 +19,7 @@ const App = () => {
       <div className=''>
         <Coverpage />
         <About />
-        <Projects />
+        <MyWork />
         <Embarrassing />
         <CV />
         <Contact />

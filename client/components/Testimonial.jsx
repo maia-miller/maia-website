@@ -3,9 +3,11 @@ import React from 'react'
 export default (props) => {
 
   return (
-    <div className='testimonial'>
-      <h3>Quote</h3>
-      <h5>Source</h5>
-    </div>
+    <div className='hero'>
+      <div className='container has-text-centered'>
+        <h4 className='title is-4'>Quote</h4>
+        <h6 className='subtitle is-6'><em> - Source</em></h6>
+      </div>
+  </div>
   )
 }

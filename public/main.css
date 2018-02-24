@@ -1,9 +1,9 @@
 .coverpage, .work, .cv, .footer {
-  background-color: lightblue;
+  background-color: #51CBCE;
 }
 
 .about, .embarassing, .contact {
-  background-color: #cccccc;
+  background-color: #fff;
 }
 
 .testimonial {
