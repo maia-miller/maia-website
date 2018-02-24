@@ -11,18 +11,13 @@ export default (props) => {
         </div>
       </div>
 
-
-      <form>
-
       <div class="field is-grouped">
-        <label class="label">Name</label>
           <div class="control">
-            <input class="input" type="text" placeholder="Text input" />
+            <input class="input" type="text" placeholder="Name" />
           </div>
 
-        <label class="label">Email</label>
         <div class="control has-icons-left has-icons-right">
-          <input class="input is-danger" type="email" placeholder="Email input" value="hello@" />
+          <input class="input is-danger" type="email" placeholder="Email" />
           <span class="icon is-small is-left">
             <i class="fas fa-envelope"></i>
           </span>
@@ -34,9 +29,8 @@ export default (props) => {
       </div>
 
       <div class="field">
-        <label class="label">Message</label>
         <div class="control">
-          <textarea class="textarea" placeholder="Textarea"></textarea>
+          <textarea class="textarea" placeholder="Hi, I hope you're having a terrific day!"></textarea>
         </div>
       </div>
 
@@ -48,7 +42,6 @@ export default (props) => {
           <button class="button is-text">Cancel</button>
         </div>
       </div>
-    </form>
 
     <div className='icons'>
       <div className='columns'>
