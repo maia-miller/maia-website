@@ -48,7 +48,6 @@ return (
 
       <div className='container has-text-centered is-fullhd'>
         <p>When I'm not coding, I'm spending time doing acroyoga, cooking delicious vegan food, cylcing/hiking, or making pottery.</p>
-        <Testimonial1 />
       </div>
     </div>
 

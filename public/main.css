@@ -1,37 +1,57 @@
+/* PAGE BACKGROUNDS AND LAYOUT */
+
 .coverpage, .work, .cv, .footer {
   background-color: #51CBCE;
+  padding: 40px;
 }
 
 .about, .embarassing, .contact {
   background-color: #fff;
+  padding: 40px;
 }
 
 .testimonial {
   background-color: beige;
+  padding: 40px;
 }
 
-.title {
-  padding: 25px;
+.tile {
+  padding-top: 40px;
+}
+
+.tile .is-child {
 }
 
 body {
-    margin: 0;
-    font-family: Arial;
-    font-size: 17px;
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
 }
 
+/* VIDEO BACKGROUND */
 #vid-background {
-    position: absolute;
-    max-width: 100%;
-    max-height: 50%;
+  position: absolute;
+  max-width: 100%;
+  max-height: 50%;
 }
 
 .content {
-    position: absolute;
-    /* background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-    padding-bottom: 62px; */
-    z-index: 1;
+  position: absolute;
+  /* background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 62px; */
+  z-index: 1;
+}
+
+/* FONTS AND LETTERING */
+.title {
+  padding-bottom: 25px;
+}
+
+/* PAGE ELEMENTS */
+
+img {
+
 }
