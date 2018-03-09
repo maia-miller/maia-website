@@ -10,6 +10,31 @@
   background-color: beige;
 }
 
+.title {
+  padding: 25px;
+}
+
+.slide-right {
+  position: relative;
+  -webkit-animation-name: slide-right; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+  animation-name: slide-right;
+  animation-duration: 1.5s;
+}
+
+/* Safari 4.0 - 8.0 */
+slide-right {
+  0%   {left:0px; top:0px;}
+  100%  {left:50%; top:0px;}
+{  animation-timing-function: linear;}
+}
+
+/* Standard syntax */
+@keyframes slide-right {
+  0%   {left:-100%;}
+  100%  {left:0%;}
+}
+
 body {
     margin: 0;
     font-family: Arial;

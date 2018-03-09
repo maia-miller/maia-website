@@ -4,7 +4,7 @@ import ProjSquare from './ProjSquare'
 
 export default (props) => {
   return (
-    <div className='work'>
+    <div id='work' className='work'>
       <div className='hero'>
         <div className='container has-text-centered'>
           <h1 className='title is-2'>My Work</h1>

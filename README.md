@@ -4,7 +4,7 @@ Welcome to my website! This is the code behind www.maia-miller.com
 
 # MVP Goals
 
-[] for Testimonial, use <title> for quote, and <subtitle> for source
+[x] for Testimonial, use <title> for quote, and <subtitle> for source
 [] for tags on projects, use 'columns is-multiline'
 
 # Stretch Goals

@@ -3,7 +3,7 @@ import React from 'react'
 export default (props) => {
 
   return (
-    <div className='contact'>
+    <div id='contact' className='contact'>
       <div className='hero'>
         <div className='container has-text-centered'>
           <h1 className='title is-2'>Conversations are fun!</h1>

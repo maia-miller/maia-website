@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Testimonial from './Testimonial'
+import Testimonial1 from './Testimonial1'
 
 export default (props) => {
 
@@ -8,7 +8,7 @@ return (
   <div className='about'>
     <div className='hero'>
       <div className='container has-text-centered'>
-        <h1 className='title is-2'>About</h1>
+        <h1 className='title is-2' data-aos="fade-right" aos-duration="5000">About</h1>
       </div>
     </div>
 
@@ -48,7 +48,7 @@ return (
 
       <div className='container has-text-centered is-fullhd'>
         <p>When I'm not coding, I'm spending time doing acroyoga, cooking delicious vegan food, cylcing/hiking, or making pottery.</p>
-        <Testimonial />
+        <Testimonial1 />
       </div>
     </div>
 
