@@ -55,7 +55,7 @@ export default (props) => {
           <span className="icon is-large">
             <i className="fas fa-home"></i>
           </span>
-          <p>Phone</p>
+          <p>GitHub</p>
         </div>
         <div className='column'>
           <span className="icon is-large">

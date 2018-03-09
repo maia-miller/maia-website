@@ -6,8 +6,10 @@ Welcome to my website! This is the code behind www.maia-miller.com
 
 [x] for Testimonial, use <title> for quote, and <subtitle> for source
 [] for tags on projects, use 'columns is-multiline'
-[] center images in <About />
-[] center-align text in <About />
+[] <About /> columns are centered
+[] <Embarrassing /> paragraph to be within container
+[] <CV /> columns are centered
+[] <Contact /> columns are centered
 
 # Stretch Goals
 

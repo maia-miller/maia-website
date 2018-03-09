@@ -1,18 +1,23 @@
 import React from 'react'
 
-import Testimonial from './Testimonial'
+import Testimonial2 from './Testimonial2'
 
 export default (props) => {
   return (
     <div className='cv'>
       <div className='hero'>
         <div className='container has-text-centered'>
-          <h1 className='title is-2'>My CV</h1>
+          <h1 className='title is-2' data-aos='fade-down' data-aos-duration="800">My CV</h1>
         </div>
       </div>
 
+      <Testimonial2 />
+
       <div className='columns'>
         <div className='column'>
+          <figure className="image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+            <img src="https://bulma.io/images/placeholders/128x128.png" />
+          </figure>
           <h5 className='subtitle is-5'>Experience</h5>
 
           <p><strong>Digital Marketing Specialist</strong></p>
@@ -33,6 +38,9 @@ export default (props) => {
         </div>
 
         <div className='column'>
+          <figure className="image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+            <img src="https://bulma.io/images/placeholders/128x128.png" />
+          </figure>
           <h5 className='subtitle is-5'>Education</h5>
 
           <p><strong>Full-Stack Web Development</strong></p>
@@ -53,6 +61,9 @@ export default (props) => {
         </div>
 
         <div className='column'>
+          <figure className="image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+            <img src="https://bulma.io/images/placeholders/128x128.png" />
+          </figure>
           <h5 className='subtitle is-5'>Awards</h5>
           <p><strong><a href='http://yourreview.journals.yorku.ca/index.php/yourreview/article/view/40307'>Published Academic Article</a></strong></p>
           <p>York Online Undergraduate Research Review (YOUR Review 2014)</p>
@@ -72,9 +83,6 @@ export default (props) => {
           <p>McGill University Debating Tournament, Montreal, Canada, 2009</p>
         </div>
       </div>
-
-      <Testimonial />
-
     </div>
   )
 }
