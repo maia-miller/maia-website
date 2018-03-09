@@ -4,7 +4,6 @@ Welcome to my website! This is the code behind www.maia-miller.com
 
 # MVP Goals
 
-[] video starts to play at a certain time
 [] for Testimonial, use <title> for quote, and <subtitle> for source
 [] for tags on projects, use 'columns is-multiline'
 
@@ -12,3 +11,9 @@ Welcome to my website! This is the code behind www.maia-miller.com
 
 [] integrate SaSS
 [] background patterns: TransparentTextures.com
+
+#Animations
+[] video starts to play at a certain time
+[] video is hero background
+[] 'about' icons animate
+[] my name appears on hero as being typed in
