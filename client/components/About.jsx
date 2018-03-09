@@ -8,13 +8,13 @@ return (
   <div className='about'>
     <div className='hero'>
       <div className='container has-text-centered'>
-        <h1 className='title is-2' data-aos="fade-right" aos-duration="5000">About</h1>
+        <h1 className='title is-2' data-aos="fade-right" data-aos-duration="800">About</h1>
       </div>
     </div>
 
       <div className='columns'>
         <div className='column'>
-          <figure className="image is-128x128">
+          <figure className="image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
             <img src="https://bulma.io/images/placeholders/128x128.png" />
           </figure>
           <h5 className='subtitle is-5'>Team player</h5>
@@ -22,7 +22,7 @@ return (
         </div>
 
         <div className='column'>
-          <figure className="image is-128x128">
+          <figure className="image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="250">
             <img src="https://bulma.io/images/placeholders/128x128.png" />
           </figure>
           <h5 className='subtitle is-5'>Default Mode: Problem Solver</h5>
@@ -30,7 +30,7 @@ return (
         </div>
 
         <div className='column'>
-          <figure className="image is-128x128">
+          <figure className="image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
             <img src="https://bulma.io/images/placeholders/128x128.png" />
           </figure>
           <h5 className='subtitle is-5'>Fast Learner</h5>
@@ -38,7 +38,7 @@ return (
         </div>
 
         <div className='column'>
-          <figure className="image is-128x128">
+          <figure className="image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="350">
             <img src="https://bulma.io/images/placeholders/128x128.png" />
           </figure>
           <h5 className='subtitle is-5'>An Eye on Growth</h5>

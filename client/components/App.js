@@ -7,6 +7,8 @@ import Embarrassing from './Embarrassing'
 import CV from './CV'
 import Contact from './Contact'
 import Footer from './Footer'
+import Testimonial from './Testimonial'
+import Testimonial1 from './Testimonial1'
 // import NavBar from './NavBar'
 
 const App = () => {
@@ -19,9 +21,12 @@ const App = () => {
       <div className=''>
         <Coverpage />
         <About />
+        <Testimonial1 />
         <MyWork />
         <Embarrassing />
+        <Testimonial />
         <CV />
+        <Testimonial />
         <Contact />
         <Footer />
       </div>
