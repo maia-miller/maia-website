@@ -1,19 +1,14 @@
 import React from 'react'
 
+{/* <video autoPlay muted loop id="vid-background">
+  <source src="../images/722741424.mp4" type="video/mp4" />
+</video> */}
+
 export default (props) => {
 
   return (
-    <div className='footer'>
-
-      <div className='video'>
-        <video autoPlay muted loop id="vid-background">
-          <source src="../images/343378693.mp4" type="video/mp4" />
-        </video>
-      </div>
-
-      <div className='content'>
-        ^^ icon
-      </div>
+    <div id='vid'>
+      <img id='tester' src='../images/acro.jpg' />
     </div>
   )
 }

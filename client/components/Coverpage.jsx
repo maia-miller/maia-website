@@ -8,7 +8,7 @@ export default (props) => {
 
   <div className='video'>
     <video autoPlay muted loop id="vid-background">
-      <source src="../images/343378693.mp4" type="video/mp4" />
+      <source src="../images/722741424.mp4" type="video/mp4" />
     </video>
   </div>
 
