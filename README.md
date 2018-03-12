@@ -10,6 +10,9 @@ Welcome to my website! This is the code behind www.maia-miller.com
 [] <Embarrassing /> paragraph to be within container
 [] <CV /> columns are centered
 [] <Contact /> columns are centered
+[] Correct white space on right side
+[] <Embarrassing /> dots
+[] <Embarrassing /> alignment
 
 # Stretch Goals
 

@@ -19,15 +19,9 @@
   padding-top: 40px;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
-}
-
-.column {
+/* .column {
   text-align: center;
-}
+} */
 
 /* COVERPAGE VIDEO */
 #coverpage_container {
@@ -46,11 +40,10 @@ body {
 #coverpage_vid {
   width: 100%;
   /* overflow: hidden; */
-  /* object-fit: cover; */
+  object-fit: cover;
   top: 20%;
   position: relative;
   transform: translateY(100%);
-  /* height: calc(100vh + 53px) */
 }
 
 #coverpage_content {
@@ -67,7 +60,6 @@ body {
 #coverpage_text {
   text: black;
 }
-
 
 /* FOOTER VIDEO */
 #footer_container {
@@ -107,9 +99,9 @@ body {
   padding-bottom: 25px;
 }
 
-.is-horizontal-center {
+/* .is-horizontal-center {
   justify-content: center;
-}
+} */
 
 /* PAGE ELEMENTS */
 
