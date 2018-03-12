@@ -30,16 +30,42 @@ body {
 }
 
 /* COVERPAGE VIDEO */
-
-#header-content-box{
-  display:inline-block;
-  position:absolute;
-  z-index:300000;
+#coverpage_container {
+  position: relative;
+  width: 100%;
+  z-index: 300000;
+  text-align: center;
+  height: calc(100vh + 100px)
 }
 
-#coverpage-container {
-  height: 200px%;
+#vid_coverpage_container {
+  position: absolute;
   overflow: hidden;
+}
+
+#coverpage_vid {
+  width: 100%;
+  /* overflow: hidden; */
+  /* object-fit: cover; */
+  top: 20%;
+  position: relative;
+  transform: translateY(100%);
+  /* height: calc(100vh + 53px) */
+}
+
+#coverpage_content {
+  z-index:300000;
+  position:absolute;
+  padding-left: 100px;
+  text-align: left;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#coverpage_text {
+  text: black;
 }
 
 

@@ -15,6 +15,7 @@ Welcome to my website! This is the code behind www.maia-miller.com
 
 [] integrate SaSS
 [] background patterns: TransparentTextures.com
+[] make header and footer vids mobile-friendly
 
 #Animations
 [] video starts to play at a certain time
