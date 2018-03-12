@@ -1,27 +1,29 @@
-# React/Redux client consuming an Express server with Passport local auth using JWTs
+# www.maia-miller.com
 
 Welcome to my website! This is the code behind www.maia-miller.com
 
 # MVP Goals
 
 [x] for Testimonial, use <title> for quote, and <subtitle> for source
-[] for tags on projects, use 'columns is-multiline'
-[] <About /> columns are centered
+[x] for tags on projects, use 'columns is-multiline'
+[x] <About /> columns are centered
 [] <Embarrassing /> paragraph to be within container
-[] <CV /> columns are centered
-[] <Contact /> columns are centered
+[x] <Contact /> images in columns are centered
 [] Correct white space on right side
 [] <Embarrassing /> dots
 [] <Embarrassing /> alignment
+[] Contact form works
+[] MakeMeAcro connects to project
+[] Icons in footer work
+[] "Top" button in footer
+[] make header and footer vids mobile-friendly
 
 # Stretch Goals
 
 [] integrate SaSS
 [] background patterns: TransparentTextures.com
-[] make header and footer vids mobile-friendly
 
 #Animations
-[] video starts to play at a certain time
-[] video is hero background
+[x] video is hero background
 [x] 'about' icons animate
 [] my name appears on hero as being typed in

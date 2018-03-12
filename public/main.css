@@ -105,21 +105,33 @@
 
 /* PAGE ELEMENTS */
 
+figure {
+  display: inline-block;
+  position: relative;
+  right: -50%;
+}
+
 img {
     position: relative;
     left: -50%;
 }
 
-figure {
-    display: inline-block;
-    position: relative;
-    right: -50%;
+.icons {
+  display: inline-block;
+  position: relative;
+  right: -50%;
+}
+
+.icon {
+  position: relative;
+  left: -50%;
 }
 
 .description {
   padding: 10px;
   text-align: justify;
 }
+
 /* .tile.is-child {
   background-color: blue;
   padding: 40px;
