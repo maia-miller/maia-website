@@ -123,3 +123,14 @@ figure {
     position: relative;
     right: -50%;
 }
+
+.description {
+  padding: 10px;
+  text-align: justify;
+}
+/* .tile.is-child {
+  background-color: blue;
+  padding: 40px;
+  margin-left: 40px!important;
+  max-width: 50%;
+} */

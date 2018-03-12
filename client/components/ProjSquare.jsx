@@ -12,7 +12,7 @@ export default (props) => {
           <img src="https://bulma.io/images/placeholders/128x128.png" />
         </figure>
         <p>Description</p>
-        <div className='buttons'>
+        <div className='buttons is-centered'>
           <span className="button is-danger is-small">Tag</span>
           <span className="button is-danger is-small">Tag</span>
           <span className="button is-danger is-small">Tag</span>
