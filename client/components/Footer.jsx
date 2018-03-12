@@ -10,7 +10,7 @@ export default (props) => {
         </figure>
 
         <div id='vid_footer_container'>
-          <video autoPlay muted loop id="footer_vid">
+          <video id='footer_vid' autoPlay muted loop id="footer_vid">
             <source src="../images/722741424.mp4" type="video/mp4" />
           </video>
         </div>
