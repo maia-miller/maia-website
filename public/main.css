@@ -107,8 +107,19 @@ body {
   padding-bottom: 25px;
 }
 
+.is-horizontal-center {
+  justify-content: center;
+}
+
 /* PAGE ELEMENTS */
 
 img {
-  text-align: center;
+    position: relative;
+    left: -50%;
+}
+
+figure {
+    display: inline-block;
+    position: relative;
+    right: -50%;
 }
