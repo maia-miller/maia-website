@@ -132,6 +132,10 @@ img {
   text-align: justify;
 }
 
+.hide {
+  display: none;
+}
+
 /* .tile.is-child {
   background-color: blue;
   padding: 40px;

@@ -8,7 +8,9 @@ return (
   <div className='about'>
     <div className='hero'>
       <div className='container has-text-centered'>
-        <h1 className='title is-2' data-aos="fade-right" data-aos-duration="800">About</h1>
+        <h2 className='title is-2' data-aos="fade-right" data-aos-duration="800">About</h2>
+        <h5 className='subtitle is-5' data-aos="fade-right" data-aos-duration="800">An empathetic, multidisciplinary approach to building the web.</h5>
+        <br />
       </div>
     </div>
 
@@ -16,7 +18,7 @@ return (
         <div className='column'>
           <figure className="image is-128x128 symbol" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200"><img src="../images/teamwork.png" /></figure>
         <h5 className='subtitle is-5 has-text-centered'><strong>Team player</strong></h5>
-          <p className="description">The days of the reclusive programmer are over. Today, developers work on teams with designers, marketers, project managers and other programmers. With practical teamwork experience, it has been my strong interpersonal and communication skills that has influenced time and time again to my team's success.</p>
+          <p className="description">The days of the reclusive programmer are over. Today, developers work on teams with designers, marketers, project managers and other programmers. With practical teamwork experience, it has been my strong interpersonal and communication skills that has contributed time and time again to my team's success.</p>
         </div>
 
         <div className='column'>
@@ -32,15 +34,15 @@ return (
             <img src="../images/fastlearner.png" />
           </figure>
           <h5 className='subtitle is-5 has-text-centered'><strong>Fast Learner</strong></h5>
-          <p className="description">blurb about dev academy/learning in 18 weeks/insatiable curiosity</p>
+          <p className="description">I learned how to code in just 18 weeks. Programmers need to be constantly learning in order to stay up-to-date with the field, and need to be able to do so quickly to stay relevant. I have a deep and insatiable curiosity for learning, and the self motivation and direction to put my intentions into action.</p>
         </div>
 
         <div className='column'>
           <figure className="image is-128x128 symbol" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="350">
             <img src="../images/chart.png" />
           </figure>
-          <h5 className='subtitle is-5 has-text-centered'><strong>An Eye on Growth</strong></h5>
-          <p className="description">Having worked for years in growth marketing to increase organizations' sales through print, web, email and social media, I understand the value of converting potential clients into actual users. Thanks to my Multidisciplinary background, I think creatively and unconventionally yet am grounded by best practices. Growth and sales are what keep a business alive, and these are familiar priorities to me.</p>
+          <h5 className='subtitle is-5 has-text-centered'><strong>Multidisciplinary</strong></h5>
+          <p className="description">With an education in Humanities, professional experience in marketing and graphic design, and training in Human-Computer Interactions, I bring a knowledge base that is both wide and deep. I think creatively and unconventionally, yet am grounded by best practices and an emphasis on accessibility and inclusivity.</p>
         </div>
       </div>
 
