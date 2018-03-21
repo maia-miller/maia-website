@@ -4,8 +4,8 @@ export default (props) => {
   return (
     <div className='has-text-centered'>
       <h5 className='subtitle is-5'><strong>Social Media Results</strong></h5>
-        <figure className=''>
-          <a href="../images/TCSsmResults.jpg"><img src="../images/TCSsmResults.jpg" /></a>
+        <figure className='projimg'>
+          <a href="../images/TCSsmResults.jpg"><img className='tile-img' src="../images/TCSsmResults.jpg" /></a>
         </figure>
         <p className="description">The Cup Store saw increases to their Twitter activity and results in all facets, including followers, likes and shares. In total, there was an 11% increase in twitter followers.</p>
         <div className='buttons is-centered'>

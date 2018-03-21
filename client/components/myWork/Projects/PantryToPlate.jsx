@@ -4,8 +4,8 @@ export default (props) => {
   return (
     <div className='has-text-centered'>
       <h5 className='subtitle is-5'><strong>Pantry To Plate</strong></h5>
-        <figure className=''>
-          <img src="../images/pantrytoplate.png" />
+        <figure className='projimg'>
+          <a href="https://pantry-to-plate.herokuapp.com/#/"><img className='tile-img' src="../images/pantrytoplate.png" /></a>
         </figure>
         <p className="description">Tired of staring into your fridge or pantry and thinking, "I have nothing to eat!" As our final project at EDA, our group of five solved this problem by developing a website to offer recipe ideas based on what you have, and a shopping list of what you need.</p>
         <div className='buttons is-centered'>

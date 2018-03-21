@@ -105,15 +105,24 @@
 
 /* PAGE ELEMENTS */
 
-figure {
+.col-figure {
   display: inline-block;
   position: relative;
   right: -50%;
 }
 
-img {
+.col-img {
     position: relative;
     left: -50%;
+}
+
+.projimg {
+  max-height: 180px;
+  overflow: hidden;
+}
+
+.tile-img {
+  object-fit: cover;
 }
 
 .icons {

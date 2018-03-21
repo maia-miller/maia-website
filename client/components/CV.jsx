@@ -15,8 +15,8 @@ export default (props) => {
 <br />
       <div className='columns'>
         <div className='column'>
-          <figure className="image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
-            <img src="../images/experience.png" />
+          <figure className="col-figure image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+            <img className='col-img' src="../images/experience.png" />
           </figure>
           <h5 className='subtitle is-5 has-text-centered'><strong>Experience</strong></h5>
 
@@ -37,8 +37,8 @@ export default (props) => {
         </div>
 
         <div className='column'>
-          <figure className="image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
-            <img src="../images/education.png" />
+          <figure className="col-figure image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+            <img className='col-img' src="../images/education.png" />
           </figure>
           <h5 className='subtitle is-5 has-text-centered'><strong>Education</strong></h5>
 
@@ -60,8 +60,8 @@ export default (props) => {
         </div>
 
         <div className='column'>
-          <figure className="image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
-            <img src="../images/awards.png" />
+          <figure className="col-figure image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+            <img className='col-img' src="../images/awards.png" />
           </figure>
           <h5 className='subtitle is-5 has-text-centered'><strong>Awards</strong></h5>
           <p><strong><a href='http://yourreview.journals.yorku.ca/index.php/yourreview/article/view/40307'>Published Academic Article</a></strong></p>
