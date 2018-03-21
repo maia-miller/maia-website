@@ -1,11 +1,8 @@
 import React from 'react'
 
-import ProjItem from './ProjItem'
-
 export default (props) => {
   return (
     <div className='has-text-centered'>
-{/* onClick of image or title, goes to ProjItem.jsx, passes thru e.target.value to define activeProj */}
 
       <h5 className='subtitle is-5'>Project Name</h5>
         <figure className="image is-128x128">

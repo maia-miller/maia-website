@@ -1,7 +1,5 @@
 import React from 'react'
 
-import ProjItem from './ProjItem'
-
 export default (props) => {
   return (
     <div className='has-text-centered'>

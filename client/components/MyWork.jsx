@@ -1,35 +1,24 @@
 import React from 'react'
 
-import ProjSquare from './ProjSquare'
-import PantryToPlate from './PantryToPlate'
-import MakeMeAcro from './MakeMeAcro'
-import CodingWork from './CodingWork'
-import MarketingWork from './MarketingWork'
-import DesignWork from './DesignWork'
-import WritingWork from './WritingWork'
+import ProjSquare from './myWork/Projects/ProjSquare'
+import CodingWork from './myWork/CodingWork'
+import MarketingWork from './myWork/MarketingWork'
+import DesignWork from './myWork/DesignWork'
+import WritingWork from './myWork/WritingWork'
 
 export default class MyWork extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       showCoding: true,
-      showMarketing: true,
-      showDesign: true,
-      showWriting: true
+      showMarketing: false,
+      showDesign: false,
+      showWriting: false
     }
-    this.showAll = this.showAll.bind(this)
     this.codingWork = this.codingWork.bind(this)
     this.marketingWork = this.marketingWork.bind(this)
     this.designWork = this.designWork.bind(this)
     this.writingWork = this.writingWork.bind(this)
-  }
-  showAll() {
-    this.setState({
-      showCoding: true,
-      showMarketing: true,
-      showDesign: true,
-      showWriting: true
-    })
   }
 
   codingWork(){
@@ -74,11 +63,10 @@ export default class MyWork extends React.Component {
         <div className='hero'>
           <div className='container has-text-centered'>
             <h1 className='title is-2' data-aos='fade-up' data-aos-duration="800">My Work</h1>
-            <button className='button is-danger' onClick={this.showAll}>Show All</button>
-            <button className='button is-danger is-inverted is-outlined' onClick={() => this.codingWork()}>Coding</button>
-            <button className='button is-danger is-inverted is-outlined' onClick={() => this.marketingWork()}>Marketing</button>
-            <button className='button is-danger is-inverted is-outlined' onClick={() => this.designWork()}>Design</button>
-            <button className='button is-danger is-inverted is-outlined' onClick={() => this.writingWork()}>Writing</button>
+            <button className={this.state.showCoding ? 'button is-danger' : 'button is-danger is-inverted is-outlined'} onClick={() => this.codingWork()}>Coding</button>
+            <button className={this.state.showMarketing ? 'button is-danger' : 'button is-danger is-inverted is-outlined'} onClick={() => this.marketingWork()}>Marketing</button>
+            <button className={this.state.showDesign ? 'button is-danger' : 'button is-danger is-inverted is-outlined'} onClick={() => this.designWork()}>Design</button>
+            <button className={this.state.showWriting ? 'button is-danger' : 'button is-danger is-inverted is-outlined'} onClick={() => this.writingWork()}>Writing</button>
           </div>
         </div>
 
