@@ -10,14 +10,10 @@ export default (props) => {
         <p className="description">I researched, developed and executed a social media marketing plan which included a user analysis and a SWOT analysis. The marketing plan was executed across multiple channels, focusing primarily on Twitter, as well as Facebook, Instagram and LinkedIn.</p>
         <div className='buttons is-centered'>
           <span className="tag is-danger">Marketing strategy</span>
-          <span className="tag is-danger">Evaluation and Metrics</span>
           <span className="tag is-danger">Social Media</span>
-          <span className="tag is-danger">Research</span>
+          <span className="tag is-danger">Evaluation and Metrics</span>
         </div>
 
-        <div className='buttons is-centered'>
-          <a href='https://pantry-to-plate.herokuapp.com/#/' className='button is-primary is-outlined'>See it live</a>
-        </div>
     </div>
   )
 }
