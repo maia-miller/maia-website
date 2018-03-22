@@ -24,7 +24,6 @@ const App = () => {
         <MyWork />
         <Embarrassing />
         <CV />
-        <Testimonial />
         <Contact />
         <Footer />
       </div>

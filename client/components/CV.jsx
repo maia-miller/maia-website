@@ -11,8 +11,6 @@ export default (props) => {
         </div>
       </div>
 
-      <Testimonial2 />
-<br />
       <div className='columns'>
         <div className='column'>
           <figure className="col-figure image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">

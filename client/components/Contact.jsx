@@ -3,65 +3,40 @@ import React from 'react'
 export default (props) => {
 
   return (
-    <div id='contact' className='contact'>
+    <form id='contact' className='contact'>
       <div className='hero'>
         <div className='container has-text-centered'>
           <h1 className='title is-2'>Conversations are fun!</h1>
-          <p>You should <strong>get in touch with me</strong> below:</p>
-        </div>
-      </div>
+          <p>You should <strong>get in touch with me</strong> through one of the means below:</p>
+          <br />
+          <br />
 
-      <div className="field is-grouped">
-          <div className="control">
-            <input className="input" type="text" placeholder="Name" />
+          <div className='columns has-text-centered'>
+            <div className='column '>
+              <a href="mailto:maiamiller25@gmail.com">
+                <img className='icon-img' src="../images/email.png" />
+                <p>Email</p>
+              </a>
+            </div>
+
+            <div className='column '>
+              <a href="https://github.com/maia-miller">
+                <img className='icon-img' src="../images/github.png" />
+                <p>GitHub</p>
+              </a>
+            </div>
+
+            <div className='column '>
+              <a href="https://www.linkedin.com/in/maiamiller/">
+                <img className='icon-img' src="../images/linkedin.png" />
+                <p>LinkedIn</p>
+              </a>
+            </div>
+
           </div>
 
-        <div className="control has-icons-left has-icons-right">
-          <input className="input" type="email" placeholder="Email" />
-          <span className="icon is-small is-left">
-            <i className="fas fa-envelope"></i>
-          </span>
         </div>
       </div>
-
-      <div className="field">
-        <div className="control">
-          <textarea className="textarea" placeholder="Hi, I hope you're having a terrific day!"></textarea>
-        </div>
-      </div>
-
-      <div className="field is-grouped is-grouped-centered">
-        <div className="control">
-          <button className="button is-danger">Submit</button>
-        </div>
-        <div className="control">
-          <button className="button is-text">Cancel</button>
-        </div>
-      </div>
-
-    <div className='icons'>
-      <div className='columns'>
-        <div className='column'>
-          <span className="icon is-large">
-            <i className="fas fa-home"></i>
-          </span>
-          <p>Email</p>
-        </div>
-        <div className='column'>
-          <span className="icon is-large">
-            <i className="fas fa-home"></i>
-          </span>
-          <p>GitHub</p>
-        </div>
-        <div className='column'>
-          <span className="icon is-large">
-            <i className="fas fa-home"></i>
-          </span>
-          <p>LinkedIn</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
+    </form>
   )
 }
