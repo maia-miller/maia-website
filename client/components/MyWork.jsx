@@ -57,7 +57,6 @@ export default class MyWork extends React.Component {
   }
 
   render() {
-    console.log('state', this.state)
     return (
       <div id='work' className='work'>
         <div className='hero'>
