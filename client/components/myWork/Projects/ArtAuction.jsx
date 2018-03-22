@@ -11,6 +11,7 @@ export default (props) => {
         <div className='buttons is-centered'>
           <span className="tag is-danger">Marketing strategy</span>
           <span className="tag is-danger">Communication</span>
+          <span className="tag is-danger">InDesign</span>
         </div>
 
         <div className='buttons is-centered'>

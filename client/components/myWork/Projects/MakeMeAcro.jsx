@@ -10,7 +10,7 @@ export default (props) => {
         <p className="description">I spend lots of my time at acro jams, where you meet with people and improvise acro yoga poses. However, many times people end up standing around asking each other, "What pose should we do!?" Created in React, I built this app after 6 weeks of learning. It utilizes the whole stack, from a database to which users can contribute to an interactive interface.</p>
         <div className='buttons is-centered'>
           <span className="tag is-danger">React</span>
-          <span className="tag is-danger">Database</span>
+          <span className="tag is-danger">SQL Database</span>
         </div>
 
         <div className='buttons is-centered'>

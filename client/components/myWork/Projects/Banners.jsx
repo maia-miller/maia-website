@@ -10,6 +10,8 @@ export default (props) => {
         <p className="description">These select web banners were posted in rotation on the organization’s website to promote traffic towards event pages, and were consistent with the event's branding.</p>
         <div className='buttons is-centered'>
           <span className="tag is-danger">Graphic Design</span>
+          <span className="tag is-danger">Photoshop</span>
+          <span className="tag is-danger">Illustrator</span>
         </div>
 
         <div className='buttons is-centered'>

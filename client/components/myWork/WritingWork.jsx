@@ -1,6 +1,9 @@
 import React from 'react'
 
-import ProjSquare from './Projects/ProjSquare'
+import ResearchSnapshot from './Projects/ResearchSnapshot'
+import PressRelease from './Projects/PressRelease'
+import AdvocacyMatters from './Projects/AdvocacyMatters'
+import TCSnewsletter from './Projects/TCSnewsletter'
 
 export default (props) => {
     return (
@@ -9,10 +12,21 @@ export default (props) => {
         <div className='tile is-ancestor'>
           <div className="tile is-parent">
             <article className="tile is-child notification is-4" data-aos="flip-left" data-aos-duration="1000">
-              asdf
+              <ResearchSnapshot />
             </article>
             <article className="tile is-child notification is-4" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
-              asdf
+              <PressRelease />
+            </article>
+            <article className="tile is-child notification is-4" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+              <AdvocacyMatters />
+            </article>
+          </div>
+        </div>
+
+        <div className='tile is-ancestor'>
+          <div className="tile is-parent">
+            <article className="tile is-child notification is-4" data-aos="flip-left" data-aos-duration="1000">
+              <TCSnewsletter />
             </article>
           </div>
         </div>
