@@ -21,10 +21,8 @@ const App = () => {
       <div className=''>
         <Coverpage />
         <About />
-        <Testimonial1 />
         <MyWork />
         <Embarrassing />
-        <Testimonial />
         <CV />
         <Testimonial />
         <Contact />

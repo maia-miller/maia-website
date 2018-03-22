@@ -13,6 +13,8 @@
 .testimonial {
   background-color: beige;
   padding: 40px;
+  border:1px solid black;
+
 }
 
 .tile {
