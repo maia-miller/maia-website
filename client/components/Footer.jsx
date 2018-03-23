@@ -6,7 +6,8 @@ export default (props) => {
     <div id='footer_container'>
 
         <figure>
-          <img id='footer_content' src="../images/acro.jpg" />
+          <a href="/#">
+          <img id='footer_content' src="../images/arrow.png" /></a>
         </figure>
 
         <div id='vid_footer_container'>

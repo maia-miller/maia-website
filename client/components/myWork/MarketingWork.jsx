@@ -9,7 +9,7 @@ import CustomerJourney from './Projects/CustomerJourney'
 export default (props) => {
     return (
       <div id='work' className='work'>
-
+        <a name="MarketingWork"></a>
         <div className='tile is-ancestor'>
           <div className="tile is-parent">
             <article className="tile is-child notification is-4" data-aos="flip-left" data-aos-duration="1000">

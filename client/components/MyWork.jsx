@@ -59,6 +59,7 @@ export default class MyWork extends React.Component {
   render() {
     return (
       <div id='work' className='work'>
+        <a name="myWork"></a>
         <div className='hero'>
           <div className='container has-text-centered'>
             <h1 className='title is-2' data-aos='fade-up' data-aos-duration="800">My Work</h1>

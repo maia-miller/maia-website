@@ -5,6 +5,7 @@ import Testimonial2 from './Testimonial2'
 export default (props) => {
   return (
     <div className='cv'>
+      <a name="myCV"></a>
       <div className='hero'>
         <div className='container has-text-centered'>
           <h1 className='title is-2' data-aos='fade-down' data-aos-duration="800">My CV</h1>
