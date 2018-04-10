@@ -121,6 +121,8 @@
 
 .subject-title {
   column-span: 1;
+  font-family: 'Advent Pro', sans-serif;
+  text-align: center;
 }
 
 /* BUTTONS */
@@ -140,8 +142,13 @@
 /* PAGE ELEMENTS */
 .columns {
   column-count: 3;
-  column-gap: 10px;
+  column-gap: 40px;
   column-width: 100px;
+  column-fill: balance;
+}
+
+.column {
+  padding: 0px 40px 40px 0px;
 }
 
 .col-figure {
