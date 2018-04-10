@@ -1,6 +1,11 @@
 /* PAGE BACKGROUNDS AND LAYOUT */
 
-.coverpage, .work, .cv {
+.coverpage {
+  padding: 40px;
+  background-color: #23AC7F;
+}
+
+.work, .cv {
   background-color: #AE7DBD;
   padding: 40px;
 }
@@ -158,6 +163,12 @@
     }
 }
 
+.purple-block {
+  height: 200px;
+  width: 200px;
+  background-color: #8B509E;
+}
+
 .col-figure {
   display: inline-block;
   position: relative;
@@ -192,6 +203,7 @@
 .description {
   padding: 10px;
   text-align: justify;
+  font-family: sans-serif;
 }
 
 .hide {
