@@ -140,15 +140,22 @@
 }
 
 /* PAGE ELEMENTS */
-.columns {
-  column-count: 3;
-  column-gap: 40px;
-  column-width: 100px;
-  column-fill: balance;
+.columns:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .column {
-  padding: 0px 40px 40px 0px;
+  float: left;
+  width: 25%;
+}
+
+/*reponsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
 
 .col-figure {
