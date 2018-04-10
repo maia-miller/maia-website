@@ -1,7 +1,7 @@
 /* PAGE BACKGROUNDS AND LAYOUT */
 
 .coverpage, .work, .cv {
-  background-color: #51CBCE;
+  background-color: #AE7DBD;
   padding: 40px;
 }
 
@@ -97,15 +97,52 @@
 
 
 /* FONTS AND LETTERING */
-.title {
-  padding-bottom: 25px;
+.hero-title {
+  font-size: 3.5em;
+  font-family: 'Playfair Display', serif;
 }
 
-/* .is-horizontal-center {
-  justify-content: center;
-} */
+.hero-subtitle {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 2em;
+}
+
+.section-title {
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+  color: #23AC7F;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-family: 'Advent Pro', sans-serif;
+  text-align: center;
+}
+
+.subject-title {
+  column-span: 1;
+}
+
+/* BUTTONS */
+.hero-button {
+  background-color: #8B509E;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+}
 
 /* PAGE ELEMENTS */
+.columns {
+  column-count: 3;
+  column-gap: 10px;
+  column-width: 100px;
+}
 
 .col-figure {
   display: inline-block;

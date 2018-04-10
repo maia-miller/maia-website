@@ -6,12 +6,10 @@ export default (props) => {
 
 return (
   <div className='about'>
-    <div className='hero'>
-      <div className='container has-text-centered'>
-        <h2 className='title is-2' data-aos="fade-right" data-aos-duration="800">About</h2>
-        <h5 className='subtitle is-5' data-aos="fade-right" data-aos-duration="800">An empathetic, multidisciplinary approach to building the web.</h5>
-        <br />
-      </div>
+    <div className='heading'>
+      <h2 className='section-title' data-aos="fade-right" data-aos-duration="800">About</h2>
+      <h4 className='section-subtitle' data-aos="fade-right" data-aos-duration="800">An empathetic, multidisciplinary approach to building the web</h4>
+      <br />
     </div>
 
       <div className='columns'>
