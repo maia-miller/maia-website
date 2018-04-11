@@ -20,10 +20,11 @@
 }
 
 .testimonial {
-  background-color: beige;
-  padding: 40px;
-  border:1px solid black;
-
+  background-image: url('./images/quote.png');
+  padding: 60px;
+  background-repeat: round;
+  background-size: cover;
+  background-color: #23AC7F
 }
 
 /* COVERPAGE VIDEO */
@@ -124,6 +125,21 @@
   column-span: 1;
   font-family: 'Advent Pro', sans-serif;
   text-align: center;
+}
+
+.quote-title {
+  font-family: 'Advent Pro', sans-serif;
+  text-align: center;
+  color: white;
+  padding: 10px 50px 0px;
+}
+
+.quote-subtitle {
+  font-family: 'Advent Pro', sans-serif;
+  text-align: center;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .column-text {
