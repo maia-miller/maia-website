@@ -6,7 +6,7 @@
 }
 
 .bars {
-  padding: 40px;
+  padding: 10px;
 }
 
 .work, .cv {
@@ -29,10 +29,6 @@
 .tile {
   padding-top: 40px;
 }
-
-/* .column {
-  text-align: center;
-} */
 
 /* COVERPAGE VIDEO */
 #coverpage_container {
@@ -166,6 +162,18 @@
         width: 100%;
     }
 }
+
+.left-bars {
+  position: fixed;
+  /* bottom: 0; */
+  left: 10;
+}
+
+.right-bars {
+  position: fixed;
+  right: 0;
+}
+
 
 .purple-block {
   height: 200px;
