@@ -26,10 +26,6 @@
 
 }
 
-.tile {
-  padding-top: 40px;
-}
-
 /* COVERPAGE VIDEO */
 #coverpage_container {
   position: relative;
@@ -113,7 +109,7 @@
 }
 
 .section-title {
-  font-size: 2em;
+  font-size: 2.3em;
   font-family: 'Playfair Display', serif;
   color: #23AC7F;
   text-align: center;
@@ -128,6 +124,18 @@
   column-span: 1;
   font-family: 'Advent Pro', sans-serif;
   text-align: center;
+}
+
+.column-text {
+  padding: 10px;
+  text-align: justify;
+  font-family: 'Oxygen', sans-serif;
+}
+
+p {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
 }
 
 /* BUTTONS */
@@ -210,12 +218,6 @@
 .icon {
   position: relative;
   left: -50%;
-}
-
-.description {
-  padding: 10px;
-  text-align: justify;
-  font-family: sans-serif;
 }
 
 .hide {
