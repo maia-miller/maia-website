@@ -9,6 +9,7 @@ import Contact from './Contact'
 import Footer from './Footer'
 import Testimonial from './Testimonial'
 import Testimonial1 from './Testimonial1'
+import Bars from './Bars'
 // import NavBar from './NavBar'
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
 
       <div className=''>
         <Coverpage />
+        <Bars />
         <About />
         <MyWork />
         <Embarrassing />

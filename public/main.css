@@ -5,6 +5,10 @@
   background-color: #23AC7F;
 }
 
+.bars {
+  padding: 40px;
+}
+
 .work, .cv {
   background-color: #AE7DBD;
   padding: 40px;
