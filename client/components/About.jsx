@@ -8,7 +8,7 @@ return (
   <div className='about'>
     <div className='heading'>
       <h2 className='section-title' data-aos="fade-right" data-aos-duration="800">About</h2>
-      <h4 className='section-subtitle' data-aos="fade-right" data-aos-duration="800">An empathetic, multidisciplinary approach to building the web</h4>
+      <h3 className='section-subtitle' data-aos="fade-right" data-aos-duration="800">An empathetic, multidisciplinary approach to building the web</h3>
       <br />
     </div>
 

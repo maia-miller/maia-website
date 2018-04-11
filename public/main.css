@@ -11,12 +11,12 @@
 
 .work, .cv {
   background-color: #AE7DBD;
-  padding: 40px;
+  padding: 20px 100px;
 }
 
 .about, .embarassing, .contact {
   background-color: #fff;
-  padding: 40px;
+  padding: 20px 100px;
 }
 
 .testimonial {
