@@ -27,6 +27,10 @@
   background-color: #23AC7F
 }
 
+.buttons-heading {
+  text-align: center;
+}
+
 /* COVERPAGE VIDEO */
 #coverpage_container {
   position: relative;
@@ -116,6 +120,13 @@
   text-align: center;
 }
 
+.section-title-white {
+  font-size: 2.3em;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  text-align: center;
+}
+
 .section-subtitle {
   font-family: 'Advent Pro', sans-serif;
   text-align: center;
@@ -158,6 +169,32 @@ p {
 .hero-button {
   background-color: #8B509E;
   border: none;
+  color: white;
+  padding: 5px 15px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.work-button {
+  background-color: #23AC7F;
+  border: 3px solid #C39E37;
+  color: white;
+  padding: 5px 15px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.work-button-inverted {
+  background-color: #AE7DBD;
+  border: 3px solid #C39E37;
   color: white;
   padding: 5px 15px;
   margin: 5px;

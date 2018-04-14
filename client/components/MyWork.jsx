@@ -60,14 +60,12 @@ export default class MyWork extends React.Component {
     return (
       <div id='work' className='work'>
         <a name="myWork"></a>
-        <div className='hero'>
-          <div className='container has-text-centered'>
-            <h1 className='title is-2' data-aos='fade-up' data-aos-duration="800">My Work</h1>
-            <button className={this.state.showCoding ? 'button is-danger' : 'button is-danger is-inverted is-outlined'} onClick={() => this.codingWork()}>Coding</button>
-            <button className={this.state.showMarketing ? 'button is-danger' : 'button is-danger is-inverted is-outlined'} onClick={() => this.marketingWork()}>Marketing</button>
-            <button className={this.state.showDesign ? 'button is-danger' : 'button is-danger is-inverted is-outlined'} onClick={() => this.designWork()}>Design</button>
-            <button className={this.state.showWriting ? 'button is-danger' : 'button is-danger is-inverted is-outlined'} onClick={() => this.writingWork()}>Writing</button>
-          </div>
+        <h1 className='section-title-white' data-aos='fade-up' data-aos-duration="800">My Work</h1>
+        <div className='buttons-heading'>
+          <button className={this.state.showCoding ? 'work-button' : 'work-button-inverted'} onClick={() => this.codingWork()}>Coding</button>
+          <button className={this.state.showMarketing ? 'work-button' : 'work-button-inverted'} onClick={() => this.marketingWork()}>Marketing</button>
+          <button className={this.state.showDesign ? 'work-button' : 'work-button-inverted'} onClick={() => this.designWork()}>Design</button>
+          <button className={this.state.showWriting ? 'work-button' : 'work-button-inverted'} onClick={() => this.writingWork()}>Writing</button>
         </div>
 
         <div className={this.state.showCoding ? 'show' : 'hide'}>
