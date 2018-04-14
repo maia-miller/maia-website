@@ -49,6 +49,10 @@
   margin: 10px;
 }
 
+.embarrassing-heading {
+  text-align: center;
+}
+
 /* COVERPAGE VIDEO */
 #coverpage_container {
   position: relative;
@@ -187,14 +191,15 @@ p {
   text-align: justify;
 }
 
+.cv-text {
+  text-align: left;
+}
+
 #embarassing {
   display: inline;
   text-align: center;
 }
 
-.embarrassing-heading {
-  text-align: center;
-}
 
 /* BUTTONS */
 .hero-button {
@@ -276,6 +281,11 @@ p {
 .column {
   float: left;
   width: 25%;
+}
+
+.cv-column {
+  float: left;
+  width: 33.33%;
 }
 
 /*reponsive columns */
