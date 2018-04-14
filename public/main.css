@@ -187,6 +187,15 @@ p {
   text-align: justify;
 }
 
+#embarassing {
+  display: inline;
+  text-align: center;
+}
+
+.embarrassing-heading {
+  text-align: center;
+}
+
 /* BUTTONS */
 .hero-button {
   background-color: #8B509E;
