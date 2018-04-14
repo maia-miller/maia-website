@@ -27,6 +27,11 @@
   background-color: #23AC7F
 }
 
+.demo {
+  padding: 10px;
+  text-align: center;
+}
+
 .buttons-heading {
   text-align: center;
 }
@@ -177,6 +182,10 @@ p {
   font-family: 'Oxygen', sans-serif;
 }
 
+.tile-text {
+  text-align: justify;
+}
+
 /* BUTTONS */
 .hero-button {
   background-color: #8B509E;
@@ -217,6 +226,36 @@ p {
   font-family: 'Advent Pro', sans-serif;
 }
 
+.tags {
+  text-align: center;
+}
+
+.tag {
+  background-color: #DDB41D;
+  border: none;
+  color: white;
+  padding: 2px 5px;
+  margin: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.demo-button {
+  background-color: white;
+  border: 3px solid #23AC7F;
+  color: #23AC7F;
+  padding: 5px 15px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+}
+
 /* PAGE ELEMENTS */
 .columns:after {
   content: "";
@@ -247,6 +286,15 @@ p {
   right: 0;
 }
 
+.img-container {
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+}
+
+.tile-img {
+  object-fit: cover;
+}
 
 .purple-block {
   height: 200px;
@@ -263,15 +311,6 @@ p {
 .col-img {
     position: relative;
     left: -50%;
-}
-
-.projimg {
-  max-height: 180px;
-  overflow: hidden;
-}
-
-.tile-img {
-  object-fit: cover;
 }
 
 .icons {
