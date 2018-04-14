@@ -7,7 +7,7 @@ export default (props) => {
       <div className='img-container'>
         <img className='tile-img' src="../images/TCSmarketingplan.jpg" />
       </div>
-      <p className="description">I researched, developed and executed a social media marketing plan which included a user analysis and a SWOT analysis. The marketing plan was executed across multiple channels, focusing primarily on Twitter, as well as Facebook, Instagram and LinkedIn.</p>
+      <p className="tile-text">I researched, developed and executed a social media marketing plan which included a user analysis and a SWOT analysis. The marketing plan was executed across multiple channels, focusing primarily on Twitter, as well as Facebook, Instagram and LinkedIn.</p>
 
       <div className='tags'>
         <button className="tag">Marketing Strategy</button>

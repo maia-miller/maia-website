@@ -7,7 +7,7 @@ export default (props) => {
       <div className='img-container'>
         <a href="../images/TCSsmResults.jpg"><img className='tile-img' src="../images/TCSsmResults.jpg" /></a>
       </div>
-      <p className="description">The Cup Store saw increases to their Twitter activity and results in all facets, including followers, likes and shares. In total, there was an 11% increase in twitter followers.</p>
+      <p className="tile-text">The Cup Store saw increases to their Twitter activity and results in all facets, including followers, likes and shares. In total, there was an 11% increase in twitter followers.</p>
 
       <div className='tags'>
         <button className="tag">Marketing Strategy</button>
