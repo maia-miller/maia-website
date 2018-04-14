@@ -14,7 +14,8 @@ export default (props) => {
         <button className="tag">Social Media</button>
         <button className="tag">Evaluation and Metrics</button>
       </div>
-      
+
+      <br />
     </div>
   )
 }
