@@ -11,7 +11,7 @@ export default (props) => {
       </div>
 
       <div className='columns'>
-        <div className='cv-column'>
+        <div className='three-column'>
           <div className='purple-block'></div>
           {/* <img className="col-figure image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200 col-img" src="../images/experience.png" /> */}
           <h3 className='subject-title'>Experience</h3>
@@ -23,7 +23,7 @@ export default (props) => {
           <p className="cv-text"><strong>Communications Assistant</strong><br />Centre for Addiction and Mental Health (CAMH), June 2012 – August 2012</p>
         </div>
 
-        <div className='cv-column'>
+        <div className='three-column'>
           <div className='purple-block'></div>
           {/* <img className='col-figure image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200" col-img' src="../images/education.png" /> */}
           <h3 className='subject-title'>Education</h3>
@@ -34,7 +34,7 @@ export default (props) => {
           <p className="cv-text"><strong>Certificate of Proficiency in Advanced French</strong><br />York University, Toronto, Canada, 2013</p>
         </div>
 
-        <div className='cv-column'>
+        <div className='three-column'>
           <div className='purple-block'></div>
           {/* <img className='col-figure image is-128x128" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200" col-img' src="../images/awards.png" /> */}
           <h3 className='subject-title'>Awards</h3>

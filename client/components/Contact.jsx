@@ -43,43 +43,42 @@ export default class MyWork extends React.Component {
   render() {
     return (
       <form id='contact' className='contact'>
-        <div className='hero'>
-          <div className='container has-text-centered'>
-            <h1 className='title is-2'>Conversations are fun!</h1>
-            <p>You should <strong>get in touch with me</strong> through one of the means below:</p>
-            <br />
-            <br />
+        <h1 className='section-title' data-aos='fade-down' data-aos-duration="800">My CV</h1>
+        <p>You should <strong>get in touch with me</strong> through one of the means below:</p>
+        <br />
+        <br />
 
-            <div className='columns has-text-centered'>
-              <div className='column' onClick={() => this.copyTextToClipboard('maiamiller25@gmail.com')}>
-                <img className='icon-img' src="../images/email.png" />
-                  <a href="#footer"><p>Email</p></a>
-              </div>
-
-              <div className='column '>
-                <a href="https://github.com/maia-miller">
-                  <img className='icon-img' src="../images/github.png" />
-                  <p>GitHub</p>
-                </a>
-              </div>
-
-              <div className='column '>
-                <a href="https://www.linkedin.com/in/maiamiller/">
-                  <img className='icon-img' src="../images/linkedin.png" />
-                  <p>LinkedIn</p>
-                </a>
-              </div>
+        <div className='columns'>
+          <div className='three-column' onClick={() => this.copyTextToClipboard('maiamiller25@gmail.com')}>
+            <img className='icon-img' src="../images/email.png" />
+              <a href="#footer"><p>Email</p></a>
+            <div className={this.state.emailCopied ? 'tags' : 'hide'}>
+              <div className='tag'>Email copied to clipboard!</div>
             </div>
+          </div>
+
+          <div className='three-column '>
+            <a href="https://github.com/maia-miller">
+              <img className='icon-img' src="../images/github.png" />
+              <p>GitHub</p>
+            </a>
+          </div>
+
+          <div className='three-column '>
+            <a href="https://www.linkedin.com/in/maiamiller/">
+              <img className='icon-img' src="../images/linkedin.png" />
+              <p>LinkedIn</p>
+            </a>
+          </div>
+
+        </div>
 
             <div className='columns has-text-centered'>
               <div className='column is-4'>
-                <span className={this.state.emailCopied ? 'tag is-light' : 'hide'}>Email copied to clipboard!</span>
               </div>
             </div>
 
             <input readOnly type="text" value="maiamiller25@gmail.com" id="myInput" />
-          </div>
-        </div>
       </form>
     )
 
