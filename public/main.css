@@ -322,15 +322,8 @@ p {
   background-color: #8B509E;
 }
 
-.col-figure {
-  display: inline-block;
-  position: relative;
-  right: -50%;
-}
-
 .col-img {
-    position: relative;
-    left: -50%;
+    height: 180px;
 }
 
 .icons {
