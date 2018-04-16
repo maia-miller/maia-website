@@ -310,39 +310,31 @@ p {
   height: 180px;
   width: 180px;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .tile-img {
   object-fit: cover;
 }
 
-.purple-block {
-  height: 200px;
-  width: 200px;
-  background-color: #8B509E;
-}
-
 .col-img {
     height: 180px;
-}
-
-.icons {
-  display: inline-block;
-  position: relative;
-  right: -50%;
-}
-
-.icon {
-  position: relative;
-  left: -50%;
-}
-
-.hide {
-  display: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .icon-img {
   max-height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.hide {
+  display: none;
 }
 
 input {

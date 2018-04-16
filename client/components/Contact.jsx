@@ -73,11 +73,6 @@ export default class MyWork extends React.Component {
 
         </div>
 
-            <div className='columns has-text-centered'>
-              <div className='column is-4'>
-              </div>
-            </div>
-
             <input readOnly type="text" value="maiamiller25@gmail.com" id="myInput" />
       </form>
     )
