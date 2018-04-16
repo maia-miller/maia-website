@@ -39,7 +39,6 @@
 .project-tiles {
   position: relative;
   display: inline-block;
-  /* top: 0; */
 }
 
 .project-tile {
@@ -47,6 +46,7 @@
   width: 30%;
   display: inline-block;
   margin: 10px;
+  vertical-align: top;
 }
 
 .embarrassing-heading {
@@ -297,7 +297,6 @@ p {
 
 .left-bars {
   position: fixed;
-  /* bottom: 0; */
   left: 10;
 }
 
