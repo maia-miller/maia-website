@@ -1,8 +1,14 @@
 /* PAGE BACKGROUNDS AND LAYOUT */
 
 .coverpage {
-  padding: 40px;
   background-color: #23AC7F;
+  background-image: url("/images/722741424.mp4");
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .bars {
@@ -54,41 +60,30 @@
 }
 
 /* COVERPAGE VIDEO */
-#coverpage_container {
-  position: relative;
-  width: 100%;
-  z-index: 300000;
-  text-align: center;
-  height: calc(100vh + 100px)
-}
-
-#vid_coverpage_container {
-  position: absolute;
+#vid-coverpage-container {
   overflow: hidden;
+  height: 600px;
 }
 
-#coverpage_vid {
-  width: 100%;
-  /* overflow: hidden; */
-  object-fit: cover;
-  top: 20%;
-  position: relative;
-  transform: translateY(100%);
-}
-
-#coverpage_content {
-  z-index:300000;
-  position:absolute;
-  padding-left: 100px;
-  text-align: left;
-  top: 40%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-#coverpage_text {
+.coverpage-text {
   text: black;
+  position: absolute;
+  top: 25%;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  text-align: left;
+  padding-left: 40px;
+  z-index: 100;
+}
+
+#header-vid {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  top: 10%;
+  /* position: relative; */
+  transform: translateY(60%);
 }
 
 /* FOOTER VIDEO */
