@@ -13,11 +13,14 @@
 
 .bars {
   padding: 10px;
+  position: sticky;
+  top: 0;
 }
 
 .work, .cv {
   background-color: #AE7DBD;
   padding: 20px 100px;
+  /* opacity: .7; */
 }
 
 .about, .embarassing, .contact {
@@ -290,14 +293,14 @@ p {
     }
 }
 
-.left-bars {
-  position: fixed;
-  left: 10;
+.right-bar-placement {
+  /* position: sticky; */
+  /* right: 0; */
+  transform: translateX(93%);
 }
 
 .right-bars {
-  position: fixed;
-  right: 0;
+
 }
 
 .img-container {
