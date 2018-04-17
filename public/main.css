@@ -15,6 +15,7 @@
   padding: 10px;
   position: sticky;
   top: 0;
+  pointer-events:none
 }
 
 .work, .cv {
@@ -43,6 +44,7 @@
 
 .buttons-heading {
   text-align: center;
+  z-index: 100;
 }
 
 .project-tiles {
@@ -222,11 +224,6 @@ p {
   font-style: oblique;
 }
 
-/* .hero-arrows:hover {
-  font-weight: bold;
-  font-style: oblique;
-} */
-
 .work-button {
   background-color: #23AC7F;
   border: 3px solid #C39E37;
@@ -327,7 +324,9 @@ p {
 }
 
 .tile-img {
-  object-fit: cover;
+  object-fit: contain;
+  height: 180px;
+  width: 180px;
 }
 
 .col-img {
