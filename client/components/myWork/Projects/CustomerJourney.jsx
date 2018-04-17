@@ -5,7 +5,7 @@ export default (props) => {
     <div className=''>
       <h2 className='subject-title'>Customer Journey</h2>
       <div className='img-container'>
-        <a href="../images/customerJourney.jpg"><img className='tile-img' src="../images/customerJourney.jpg" /></a>
+        <a href="../images/customerJourney.jpg"><img className='tile-img' src="../images/customerJourney-square.jpg" /></a>
       </div>
       <p className="tile-text">I mapped a workflow identifying all points of contact with the customer in order to identify pain points in the ordering process. This customer journey map enable the company to focus on areas of improvement to avoid redundancy and improve efficiency.</p>
 

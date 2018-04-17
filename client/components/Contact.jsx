@@ -43,8 +43,8 @@ export default class MyWork extends React.Component {
   render() {
     return (
       <form id='contact' className='contact'>
-        <h1 className='section-title' data-aos='fade-down' data-aos-duration="800">My CV</h1>
-        <p>You should <strong>get in touch with me</strong> through one of the means below:</p>
+        <h1 className='section-title' data-aos='fade-down' data-aos-duration="800">Contact</h1>
+        <p>I love having conversations with people to see how our work and goals can align.<br />You should <strong>get in touch with me</strong> through one of the means below:</p>
         <br />
         <br />
 

@@ -15,7 +15,7 @@ export default (props) => {
       </div>
 
       <div className='demo'>
-        <a href='http://makemeacro.herokuapps.com'><button className='demo-button'>See it live</button></a>
+        <a href='http://makemeacro.herokuapp.com'><button className='demo-button'>See it live</button></a>
       </div>
 
     </div>

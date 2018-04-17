@@ -3,7 +3,7 @@ import React from 'react'
 export default (props) => {
   return (
     <div className=''>
-      <h2 className='subject-title'>Social Media Marketing Plan</h2>
+      <h2 className='subject-title'>Digital Marketing Plan</h2>
       <div className='img-container'>
         <img className='tile-img' src="../images/TCSmarketingplan.jpg" />
       </div>

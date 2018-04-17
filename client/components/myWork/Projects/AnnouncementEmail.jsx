@@ -3,7 +3,7 @@ import React from 'react'
 export default (props) => {
   return (
     <div className=''>
-      <h2 className='subject-title'>Announcement Email to Staff</h2>
+      <h2 className='subject-title'>Announcement Email</h2>
       <div className='img-container'>
         <a href="../images/UJAemail.jpg"><img className='tile-img' src="../images/UJAstaffemail.jpg" /></a>
       </div>

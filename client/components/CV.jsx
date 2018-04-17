@@ -12,7 +12,7 @@ export default (props) => {
 
       <div className='columns'>
         <div className='three-column'>
-          <img className='col-img data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200"' src="../images/experience.png" />
+          <img className='col-img' data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200" src="../images/experience.png" />
           <h3 className='subject-title'>Experience</h3>
           <p className="cv-text"><strong>Digital Marketing Specialist</strong>
           <br/>UJA Federation of Greater Toronto, January 2017 – July 2017</p>
@@ -23,7 +23,7 @@ export default (props) => {
         </div>
 
         <div className='three-column'>
-          <img className='col-img data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200"' src="../images/education.png" />
+          <img className='col-img' data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200" src="../images/education.png" />
           <h3 className='subject-title'>Education</h3>
           <p className="cv-text"><strong>Full-Stack Web Development</strong><br />Enspiral Dev Academy, Wellington, NZ, 2018</p>
           <p className="cv-text"><strong>Specialization: Interaction Design</strong><br />University of California, San Diego <em>(In progress)</em></p>
@@ -33,7 +33,7 @@ export default (props) => {
         </div>
 
         <div className='three-column'>
-          <img className='col-img data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200"' src="../images/awards.png" />
+          <img className='col-img' data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200" src="../images/awards.png" />
           <h3 className='subject-title'>Awards</h3>
           <p className="cv-text"><strong><a href='http://yourreview.journals.yorku.ca/index.php/yourreview/article/view/40307'>Published Academic Article</a></strong><br />York Online Undergraduate Research Review (YOUR Review 2014)
           <br /><em><a href='http://yourreview.journals.yorku.ca/index.php/yourreview/article/view/40307'>Read "Claws of Catharsis: The Food Narrative of Lobster Eating"</a></em></p>

@@ -5,7 +5,7 @@ export default (props) => {
     <div className=''>
       <h2 className='subject-title'>Magazine Ad</h2>
       <div className='img-container'>
-        <a href="../images/TASmag.jpg"><img className='tile-img' src="../images/TASmag.jpg" /></a>
+        <a href="../images/TASmag.jpg"><img className='tile-img' src="../images/TASmag-square.jpg" /></a>
       </div>
       <p className="tile-text">I oversaw the execution of this magazine ad by coordinating between the Marketing Director, graphic designer, and printing shop. This was the organization's first time advertising in this particular magazine - which was the primary legal magazine targeting lawyers under 40 - so there were high expectations to create a design that was professional yet captivating.</p>
 
