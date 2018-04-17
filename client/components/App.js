@@ -16,9 +16,8 @@ import NavBar from './NavBar'
 const App = () => {
   return (
     <div>
-      <NavBar />
-      <Coverpage />
-      <div className=''>
+        <NavBar />
+        <Coverpage />
         {/* <StickNavBar /> */}
         <Bars />
         <About />
@@ -27,7 +26,6 @@ const App = () => {
         <CV />
         <Contact />
         <Footer />
-      </div>
 
     </div>
   )

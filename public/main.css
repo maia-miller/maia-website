@@ -11,24 +11,15 @@
   position: relative;
 }
 
-.bars {
-  /* padding: 20px; */
-  padding-left: 20px;
-  padding-top: 80px;
-  position: absolute;
-  top: 0;
-  pointer-events:none;
-}
-
 .work, .cv {
   background-color: #AE7DBD;
-  padding: 20px 100px;
+  padding: 60px 100px;
   /* opacity: .7; */
 }
 
 .about, .embarassing, .contact {
   background-color: #fff;
-  padding: 20px 100px;
+  padding: 60px 100px;
 }
 
 .testimonial {
@@ -67,18 +58,25 @@
 }
 
 /* NAV BAR */
-.nav-bar {
+.hero-nav-bar {
   background-color: transparent;
   z-index: 300;
   position: absolute;
+  width: 100%;
 }
 
-/* text: black;
-position: absolute;
-top: 25%;
-text-align: left;
-padding-left: 40px;
-z-index: 100; */
+.hero-nav-bar li a {
+  color: black;
+}
+
+.fixed-nav-bar {
+  background-color: #23AC7F;
+  z-index: 300;
+  position: fixed;
+  top:0;
+  transition-timing-function: ease;
+  width: 100%;
+}
 
 ul {
     list-style-type: none;
@@ -93,17 +91,30 @@ li {
 
 li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Advent Pro', sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #23AC7F;
+    background-color: #8b509e;
+}
+
+/* BARS */
+.bars {
+  padding-left: 20px;
+  padding-top: 100px;
+  position: fixed;
+  top: 0;
+  pointer-events:none;
+}
+
+
+.right-bar-placement {
+  float: right;
 }
 
 /* COVERPAGE VIDEO */
@@ -342,11 +353,6 @@ p {
     .column {
         width: 100%;
     }
-}
-
-
-.right-bar-placement {
-  float: right;
 }
 
 .img-container {
