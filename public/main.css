@@ -115,6 +115,7 @@ li a:hover {
 
 .right-bar-placement {
   float: right;
+  padding-left: 1080px;
 }
 
 /* COVERPAGE VIDEO */
