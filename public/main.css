@@ -203,15 +203,29 @@ p {
 .hero-button {
   background-color: #8B509E;
   border: none;
-  color: white;
-  padding: 5px 15px;
+  padding: 25px 40px;
   margin: 5px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-family: 'Advent Pro', sans-serif;
+  color: white;
 }
+
+.hero-button-link {
+  text-decoration: none;
+}
+
+.hero-button:hover {
+  background-color: #AE7DBD;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+/* .hero-arrows:hover {
+  font-weight: bold;
+  font-style: oblique;
+} */
 
 .work-button {
   background-color: #23AC7F;
@@ -295,8 +309,8 @@ p {
 
 .right-bar-placement {
   /* position: sticky; */
-  /* right: 0; */
-  transform: translateX(93%);
+  right: -30;
+  /* transform: translateX(93%); */
 }
 
 .right-bars {

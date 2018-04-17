@@ -11,6 +11,7 @@ import Testimonial from './Testimonial'
 import Testimonial1 from './Testimonial1'
 import Bars from './Bars'
 // import NavBar from './NavBar'
+//import StickyNavBar from './StickyNavBar'
 
 const App = () => {
   return (
@@ -20,7 +21,9 @@ const App = () => {
       </div>
 
       <div className=''>
+        {/* <NavBar /> */}
         <Coverpage />
+        {/* <StickNavBar /> */}
         <Bars />
         <About />
         <MyWork />

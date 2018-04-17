@@ -9,8 +9,8 @@ return (
       <div className="coverpage-text">
         <h1 className='hero-title'>Hi, I'm Maia</h1>
         <h2 className='hero-subtitle'>I'm a software developer based in Wellington, NZ.</h2>
-        <button className="hero-button"><a className="hero-button" href='#work'>My Work</a></button>
-        <button className="hero-button"><a className="hero-button" href='#contact'>Hire Me</a></button>
+        <a className="hero-button-link" href='#work'><button className="hero-button">My Work <span className='hero-arrows'>>></span></button></a>
+        <a className="hero-button-link" href='#contact'><button className="hero-button">Hire Me <span className='hero-arrows'>>></span></button></a>
       </div>
 
 
