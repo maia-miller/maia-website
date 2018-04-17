@@ -5,8 +5,8 @@ import Testimonial2 from './Testimonial2'
 export default (props) => {
   return (
     <div className='embarassing'>
-      <div className='embarrassing-heading'>
-        <h1 id='embarassing' className='section-title' data-aos="fade-left" data-aos-duration="800">Well, this is embarassing</h1>
+      <div id='embarassing' className='embarrassing-heading'>
+        <h1 className='section-title' data-aos="fade-left" data-aos-duration="800">Well, this is embarassing</h1>
         <h1 id='embarassing' className='section-title' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">. </h1>
         <h1 id='embarassing' className='section-title' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">. </h1>
         <h1 id='embarassing' className='section-title' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1400">. </h1>

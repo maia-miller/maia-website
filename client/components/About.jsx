@@ -5,7 +5,7 @@ import Testimonial1 from './Testimonial1'
 export default (props) => {
 
 return (
-  <div className='about'>
+  <div className='about' id='about'>
     <div className='heading'>
       <h1 className='section-title' data-aos="fade-right" data-aos-duration="800">About</h1>
       <h3 className='section-subtitle' data-aos="fade-right" data-aos-duration="800">An empathetic, multidisciplinary approach to building the web</h3>

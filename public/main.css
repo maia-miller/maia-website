@@ -15,7 +15,7 @@
   /* padding: 20px; */
   padding-left: 20px;
   padding-top: 80px;
-  position: sticky;
+  position: absolute;
   top: 0;
   pointer-events:none;
 }
@@ -36,7 +36,7 @@
   padding: 60px;
   background-repeat: round;
   background-size: cover;
-  background-color: #23AC7F
+  background-color: #23AC7F;
 }
 
 .demo {
@@ -66,6 +66,46 @@
   text-align: center;
 }
 
+/* NAV BAR */
+.nav-bar {
+  background-color: transparent;
+  z-index: 300;
+  position: absolute;
+}
+
+/* text: black;
+position: absolute;
+top: 25%;
+text-align: left;
+padding-left: 40px;
+z-index: 100; */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.5em;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #23AC7F;
+}
+
 /* COVERPAGE VIDEO */
 #vid-coverpage-container {
   overflow: hidden;
@@ -76,8 +116,6 @@
   text: black;
   position: absolute;
   top: 25%;
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
   text-align: left;
   padding-left: 40px;
   z-index: 100;

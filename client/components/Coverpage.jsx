@@ -6,6 +6,17 @@ return (
 
   <div className='coverpage'>
 
+    <div className='nav-bar'>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#embarassing">History</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
       <div className="coverpage-text">
         <h1 className='hero-title'>Hi, I'm Maia</h1>
         <h2 className='hero-subtitle'>I'm a software developer based in Wellington, NZ.</h2>

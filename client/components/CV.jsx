@@ -4,7 +4,7 @@ import Testimonial2 from './Testimonial2'
 
 export default (props) => {
   return (
-    <div className='cv'>
+    <div id='cv' className='cv'>
       <a name="myCV"></a>
       <div className='heading'>
         <h1 className='section-title-white' data-aos='fade-down' data-aos-duration="800">My CV</h1>
