@@ -76,6 +76,7 @@
   top:0;
   transition-timing-function: ease;
   width: 100%;
+  opacity: .8;
 }
 
 ul {
@@ -114,8 +115,10 @@ li a:hover {
 
 
 .right-bar-placement {
-  float: right;
-  padding-left: 1080px;
+  position: fixed;
+  /* bottom: 10px;  */
+  right: 10px;
+
 }
 
 /* COVERPAGE VIDEO */
