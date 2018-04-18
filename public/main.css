@@ -17,7 +17,7 @@
   /* opacity: .7; */
 }
 
-.about, .embarassing, .contact {
+.about, .embarrassing, .contact {
   background-color: #fff;
   padding: 60px 100px;
 }
@@ -51,10 +51,6 @@
   display: inline-block;
   margin: 10px;
   vertical-align: top;
-}
-
-.embarrassing-heading {
-  text-align: center;
 }
 
 /* NAV BAR */
@@ -250,9 +246,12 @@ p {
   text-align: left;
 }
 
-#embarassing {
-  display: inline;
+.embarrassing-heading {
   text-align: center;
+}
+
+#embarrassing {
+  display: inline;
 }
 
 
