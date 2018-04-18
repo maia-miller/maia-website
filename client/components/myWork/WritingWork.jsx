@@ -6,31 +6,14 @@ import AdvocacyMatters from './Projects/AdvocacyMatters'
 import TCSnewsletter from './Projects/TCSnewsletter'
 
 export default (props) => {
-    return (
-      <div id='work' className='work'>
-
-        <div className='tile is-ancestor'>
-          <div className="tile is-parent">
-            <article className="tile is-child notification is-4" data-aos="flip-left" data-aos-duration="1000">
-              <ResearchSnapshot />
-            </article>
-            <article className="tile is-child notification is-4" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
-              <PressRelease />
-            </article>
-            <article className="tile is-child notification is-4" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
-              <AdvocacyMatters />
-            </article>
-          </div>
-        </div>
-
-        <div className='tile is-ancestor'>
-          <div className="tile is-parent">
-            <article className="tile is-child notification is-4" data-aos="flip-left" data-aos-duration="1000">
-              <TCSnewsletter />
-            </article>
-          </div>
-        </div>
-
+  return (
+    <div id='work' className='work'>
+      <div className='project-tiles'>
+        <div className="project-tile" data-aos="flip-left" data-aos-duration="1000"><ResearchSnapshot /></div>
+        <div className="project-tile" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200"><PressRelease /></div>
+        <div className="project-tile" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200"><AdvocacyMatters /></div>
+        <div className="project-tile" data-aos="flip-left" data-aos-duration="1000"><TCSnewsletter /></div>
       </div>
+    </div>
     )
 }

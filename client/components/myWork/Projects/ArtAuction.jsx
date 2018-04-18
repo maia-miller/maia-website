@@ -2,21 +2,22 @@ import React from 'react'
 
 export default (props) => {
   return (
-    <div className='has-text-centered'>
-      <h5 className='subtitle is-5'><strong>Wine and Art Auction</strong></h5>
-      <figure className='projimg'>
-          <a href="../images/auctionPackage.pdf"><img className='tile-img' src="../images/wineAndArt.jpg" /></a>
-        </figure>
-        <p className="description">I compiled the necessary information, in the correct order and in the appropriate tone, to convey confidence and professionalism to artists considering donating artwork to the auction. Nearly 70 artists applied as a result.</p>
-        <div className='buttons is-centered'>
-          <span className="tag is-danger">Marketing strategy</span>
-          <span className="tag is-danger">Communication</span>
-          <span className="tag is-danger">InDesign</span>
-        </div>
+    <div className=''>
+      <h2 className='subject-title'>Wine and Art Auction</h2>
+      <div className='img-container'>
+        <a href="../images/auctionPackage.pdf"><img className='tile-img' src="../images/wineAndArt.jpg" /></a>
+      </div>
+      <p className="tile-text">I compiled the necessary information, in the correct order and in the appropriate tone, to convey confidence and professionalism to artists considering donating artwork to the auction. Nearly 70 artists applied as a result.</p>
 
-        <div className='buttons is-centered'>
-          <a href='../images/auctionPackage.pdf' className='button is-primary is-outlined'>View the Registration Package</a>
-        </div>
+      <div className='tags'>
+        <div className="tag">Marketing strategy</div>
+        <div className="tag">Communication</div>
+        <div className="tag">InDesign</div>
+      </div>
+
+      <div className='demo'>
+        <a href='../images/auctionPackage.pdf' className='demo-button'>View the Registration Package</a>
+      </div>
 
     </div>
   )

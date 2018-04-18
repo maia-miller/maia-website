@@ -2,21 +2,22 @@ import React from 'react'
 
 export default (props) => {
   return (
-    <div className='has-text-centered'>
-      <h5 className='subtitle is-5'><strong>Social Media Results</strong></h5>
-        <figure className='projimg'>
-          <a href="../images/TCSsmResults.jpg"><img className='tile-img' src="../images/TCSsmResults.jpg" /></a>
-        </figure>
-        <p className="description">The Cup Store saw increases to their Twitter activity and results in all facets, including followers, likes and shares. In total, there was an 11% increase in twitter followers.</p>
-        <div className='buttons is-centered'>
-          <span className="tag is-danger">Marketing strategy</span>
-          <span className="tag is-danger">Social Media</span>
-          <span className="tag is-danger">Evaluation and Metrics</span>
-        </div>
+    <div className=''>
+      <h2 className='subject-title'>Social Media Results</h2>
+      <div className='img-container'>
+        <a href="../images/TCSsmResults.jpg"><img className='tile-img' src="../images/TCSsmResults-square.jpg" /></a>
+      </div>
+      <p className="tile-text">The Cup Store saw increases to their Twitter activity and results in all facets, including followers, likes and shares. In total, there was an 11% increase in twitter followers.</p>
 
-        <div className='buttons is-centered'>
-          <a href='../images/TCSsmResults.jpg' className='button is-primary is-outlined'>View the Chart</a>
-        </div>
+      <div className='tags'>
+        <button className="tag">Marketing Strategy</button>
+        <button className="tag">Social Media</button>
+        <button className="tag">Evaluation and Metrics</button>
+      </div>
+
+      <div className='demo'>
+        <a href='../images/TCSsmResults.jpg' className='demo-button'>View the Chart</a>
+      </div>
 
     </div>
   )

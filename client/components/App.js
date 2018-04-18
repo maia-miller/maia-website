@@ -9,24 +9,21 @@ import Contact from './Contact'
 import Footer from './Footer'
 import Testimonial from './Testimonial'
 import Testimonial1 from './Testimonial1'
-// import NavBar from './NavBar'
+import Bars from './Bars'
+import NavBar from './NavBar'
 
 const App = () => {
   return (
     <div>
-      <div className='nav'>
-        {/* <NavBar /> */}
-      </div>
-
-      <div className=''>
+        <NavBar />
         <Coverpage />
+        <Bars />
         <About />
         <MyWork />
         <Embarrassing />
         <CV />
         <Contact />
         <Footer />
-      </div>
 
     </div>
   )
