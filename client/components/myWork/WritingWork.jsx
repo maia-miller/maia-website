@@ -7,7 +7,7 @@ import TCSnewsletter from './Projects/TCSnewsletter'
 
 export default (props) => {
   return (
-    <div id='work' className='work'>
+    <div id='work' className=''>
       <div className='project-tiles'>
         <div className="project-tile" data-aos="flip-left" data-aos-duration="1000"><ResearchSnapshot /></div>
         <div className="project-tile" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200"><PressRelease /></div>

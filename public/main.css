@@ -13,21 +13,22 @@
 
 .work, .cv {
   background-color: #AE7DBD;
-  padding: 60px 100px;
+  padding: 60px 150px;
   /* opacity: .7; */
 }
 
 .about, .embarrassing, .contact {
   background-color: #fff;
-  padding: 60px 100px;
+  padding: 60px 150px;
 }
 
 .testimonial {
   background-image: url('./images/quote.png');
-  padding: 60px;
+  padding: 40px;
   background-repeat: round;
   background-size: cover;
   background-color: #23AC7F;
+  margin: 40px;
 }
 
 .demo {
@@ -43,6 +44,7 @@
 .project-tiles {
   position: relative;
   display: inline-block;
+  padding-top: 20px;
 }
 
 .project-tile {
@@ -248,6 +250,7 @@ p {
 
 .embarrassing-heading {
   text-align: center;
+  padding: 20px;
 }
 
 #embarrassing {
@@ -259,7 +262,7 @@ p {
 .hero-button {
   background-color: #8B509E;
   border: none;
-  padding: 25px 40px;
+  padding: 20px 30px;
   margin: 5px;
   text-align: center;
   display: inline-block;

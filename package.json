@@ -11,9 +11,7 @@
   "scripts": {
     "dev": "nodemon --watch server & webpack --watch",
     "knex": "knex",
-    "migrate": "[ \"$NODE_ENV\" = \"production\" ] && exit 0; knex migrate:latest",
-    "migrate:prod": "knex migrate:latest",
-    "postinstall": "webpack && npm run migrate",
+    "postinstall": "webpack",
     "start": "node server",
     "test": "jest",
     "test:watch": "jest --watchAll"
@@ -43,6 +41,7 @@
     "express": "^4.16.2",
     "express-jwt": "^5.3.0",
     "knex": "^0.14.3",
+    "npm": "^5.8.0",
     "pg": "^7.4.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

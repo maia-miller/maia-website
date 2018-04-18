@@ -8,7 +8,7 @@ import CustomerJourney from './Projects/CustomerJourney'
 
 export default (props) => {
   return (
-    <div id='work' className='work'>
+    <div id='work' className=''>
       <a name="MarketingWork"></a>
       <div className='project-tiles'>
         <div className="project-tile" data-aos="flip-left" data-aos-duration="1000"><TCSMarketingPlan /></div>
