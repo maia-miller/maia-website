@@ -10,8 +10,8 @@ export default (props) => {
         <p className="tile-text">I was given the requirement to design an email that was fun and engaging in order to announce the launch of UJA's Walk with Israel to staff. This email saw a 90% open rate and a 23% click-through rate. The majority of clicks (30%) came from the very bottom button, indicating that the design and content of the email encouraged users to read through the entirety of the email before engaging with the call to action.</p>
 
         <div className='tags'>
-          <span className="tag">Email Marketing</span>
-          <span className="tag">Graphic Design</span>
+          <div className="tag">Email Marketing</div>
+          <div className="tag">Graphic Design</div>
         </div>
 
         <div className='demo'>

@@ -10,9 +10,9 @@ export default (props) => {
         </figure>
         <p>Description</p>
         <div className='buttons is-centered'>
-          <span className="button is-danger is-small">Tag</span>
-          <span className="button is-danger is-small">Tag</span>
-          <span className="button is-danger is-small">Tag</span>
+          <div className="button is-danger is-small">Tag</div>
+          <div className="button is-danger is-small">Tag</div>
+          <div className="button is-danger is-small">Tag</div>
         </div>
     </div>
   )

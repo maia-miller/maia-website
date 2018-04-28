@@ -10,7 +10,7 @@ export default (props) => {
       <p className="tile-text">Written for the York Debating Society. This article summarizes the organization's success at a recent tournament and was published on York University's online news publication, yFile.</p>
 
       <div className='tags'>
-        <span className="tag">Journalism</span>
+        <div className="tag">Journalism</div>
       </div>
 
       <br />

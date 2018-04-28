@@ -270,6 +270,10 @@ p {
 
 
 /* BUTTONS */
+button {
+  cursor: pointer;
+}
+
 .hero-button {
   background-color: #8B509E;
   border: none;

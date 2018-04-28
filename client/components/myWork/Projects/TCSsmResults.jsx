@@ -10,9 +10,9 @@ export default (props) => {
       <p className="tile-text">The Cup Store saw increases to their Twitter activity and results in all facets, including followers, likes and shares. In total, there was an 11% increase in twitter followers.</p>
 
       <div className='tags'>
-        <button className="tag">Marketing Strategy</button>
-        <button className="tag">Social Media</button>
-        <button className="tag">Evaluation and Metrics</button>
+        <div className="tag">Marketing Strategy</div>
+        <div className="tag">Social Media</div>
+        <div className="tag">Evaluation and Metrics</div>
       </div>
 
       <div className='demo'>

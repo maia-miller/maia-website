@@ -10,8 +10,8 @@ export default (props) => {
       <p className="tile-text">I mapped a workflow identifying all points of contact with the customer in order to identify pain points in the ordering process. This customer journey map enable the company to focus on areas of improvement to avoid redundancy and improve efficiency.</p>
 
       <div className='tags'>
-        <span className="tag">Strategy</span>
-        <span className="tag">User Experience</span>
+        <div className="tag">Strategy</div>
+        <div className="tag">User Experience</div>
       </div>
 
       <div className='demo'>

@@ -10,8 +10,8 @@ export default (props) => {
       <p className="tile-text">Research snapshots are a summary of scientific articles, written to improve the transition from research to action. Snapshots are distributed to over 2,500 subscribers through the Canadian Mental Health Association's newsletter.</p>
 
       <div className='tags'>
-        <span className="tag">Written Communication</span>
-        <span className="tag">Summarizing</span>
+        <div className="tag">Written Communication</div>
+        <div className="tag">Summarizing</div>
       </div>
 
       <div className='demo'>

@@ -10,10 +10,10 @@ export default (props) => {
       <p className="tile-text">Tired of staring into your fridge or pantry and thinking, "I have nothing to eat!" As our final project at EDA, our group of five solved this problem by developing a website to offer recipe ideas based on what you have, and a shopping list of what you need.</p>
 
       <div className='tags'>
-        <button className="tag">React</button>
-        <button className="tag">Redux</button>
-        <button className="tag">API</button>
-        <button className="tag">Teamwork</button>
+        <div className="tag">React</div>
+        <div className="tag">Redux</div>
+        <div className="tag">API</div>
+        <div className="tag">Teamwork</div>
       </div>
 
       <div className='demo'>

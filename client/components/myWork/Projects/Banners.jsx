@@ -10,9 +10,9 @@ export default (props) => {
       <p className="tile-text">These select web banners were posted in rotation on the organization’s website to promote traffic towards event pages, and were consistent with the event's branding.</p>
 
       <div className='tags'>
-        <span className="tag">Graphic Design</span>
-        <span className="tag">Photoshop</span>
-        <span className="tag">Illustrator</span>
+        <div className="tag">Graphic Design</div>
+        <div className="tag">Photoshop</div>
+        <div className="tag">Illustrator</div>
       </div>
 
       <div className='demo'>

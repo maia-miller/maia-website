@@ -10,8 +10,8 @@ export default (props) => {
       <p className="tile-text">I oversaw the execution of this magazine ad by coordinating between the Marketing Director, graphic designer, and printing shop. This was the organization's first time advertising in this particular magazine - which was the primary legal magazine targeting lawyers under 40 - so there were high expectations to create a design that was professional yet captivating.</p>
 
       <div className='tags'>
-        <span className="tag">Collaboration</span>
-        <span className="tag">Coordination</span>
+        <div className="tag">Collaboration</div>
+        <div className="tag">Coordination</div>
       </div>
 
       <div className='demo'>
