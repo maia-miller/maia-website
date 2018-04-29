@@ -6,7 +6,7 @@
   "author": "EDA",
   "license": "ISC",
   "engines": {
-    "node": ">=8.9.0"
+    "node": "8.9.4"
   },
   "scripts": {
     "dev": "nodemon --watch server & webpack --watch",
