@@ -111,11 +111,21 @@
   .work {
     padding: 20px 0px 20px 0px;
   }
+  .project-tiles {
+    width: 100%;
+  }
+  .project-tile {
+    width: 100%;
+    margin: 10px 30px 10px 30px;
+  }
 }
 
 @media screen and (min-width: 701px) and (max-width: 980px) {
   .work {
     padding: 20px 100px 20px 100px;
   }
-
+  .project-tile {
+    width: 45%;
+    margin: 10px 10px 10px 10px;
+  }
 }
