@@ -156,3 +156,25 @@
     padding: 20px 100px 20px 100px;
   }
 }
+
+/* CV */
+@media screen and (max-width: 480px) {
+    .cv {
+      padding: 20px 0px 20px 0px;
+    }
+    .three-column {
+      width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 700px) {
+  .cv {
+    padding: 20px 0px 20px 0px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 980px) {
+  .cv {
+    padding: 20px 100px 20px 100px;
+  }
+}
