@@ -1,0 +1,79 @@
+/* COVERPAGE VIDEO */
+@media screen and (max-width: 480px) {
+  #header-vid {
+    display: none;
+  }
+
+  .coverpage {
+    height: 500px;
+    /* background-image: url('./images/quote.png') */
+  }
+
+  .coverpage-text {
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    padding-right: 40px;
+    font-size: .8em;
+  }
+}
+
+@media all and (max-width: 786px) {
+  #vid-coverpage-container {
+    height: 480px;
+  }
+}
+
+@media screen and (min-width: 787px) and (max-width: 980px) {
+  #vid-coverpage-container {
+    height: 490px;
+  }
+}
+
+@media screen and (min-width: 981px) {
+  #vid-coverpage-container {
+    height: 500px;
+  }
+}
+
+/* ABOUT */
+@media screen and (max-width: 480px) {
+    .about {
+      padding: 0px;
+    }
+    .column {
+        width: 100%;
+    }
+    .bars {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 700px) {
+    .column {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 980px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* TESTIMONIAL */
+@media screen and (max-width: 480px) {
+  .testimonial {
+    background-image: url('./images/quote.png');
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .quote-title {
+    padding: 50px 20px 0px 20px;
+  }
+
+  .quote-subtitle {
+    padding: 0px 20px 40px 20px;
+  }
+}
