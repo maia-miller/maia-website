@@ -129,3 +129,30 @@
     margin: 10px 10px 10px 10px;
   }
 }
+
+/* EMBARRASSING */
+@media screen and (max-width: 480px) {
+    .embarrassing {
+      padding: 0px;
+      padding-bottom: 20px;
+    }
+    p {
+      text-align: justify;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 700px) {
+  .embarrassing {
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 980px) {
+  .embarrassing {
+    padding: 20px 100px 20px 100px;
+  }
+}
