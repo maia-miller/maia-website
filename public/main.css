@@ -2,19 +2,11 @@
 
 .coverpage {
   background-color: #23AC7F;
-  background-image: url("/images/722741424.mp4");
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
 .work, .cv {
   background-color: #AE7DBD;
   padding: 60px 150px;
-  /* opacity: .7; */
 }
 
 .about, .embarrassing, .contact {
@@ -137,7 +129,6 @@ li a:hover {
 }
 
 .coverpage-text {
-  text: black;
   position: absolute;
   top: 25%;
   text-align: left;
@@ -151,17 +142,15 @@ li a:hover {
   overflow: hidden;
   object-fit: cover;
   top: 10%;
-  /* position: relative; */
   transform: translateY(60%);
 }
 
 /* FOOTER VIDEO */
 #footer_container {
-  /* position: absolute; */
-  width: 100%;
+  /* width: 100%;
   height: 20px;
   z-index: 300000;
-  text-align: center;
+  text-align: center; */
 }
 
 #vid_footer_container {
@@ -182,9 +171,9 @@ li a:hover {
 #footer_content {
   margin-top: 20px;
   max-height: 60px;
-  width: 60px;
-  position:absolute;
+  position: absolute;
   z-index:300000;
+  left: 48%;
 }
 
 
@@ -369,13 +358,6 @@ button {
   width: 33.33%;
 }
 
-/*reponsive columns */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
-
 .img-container {
   height: 180px;
   width: 180px;
@@ -411,4 +393,5 @@ button {
 
 input {
   display: none;
+}
 }
