@@ -171,6 +171,9 @@
   .cv {
     padding: 20px 0px 20px 0px;
   }
+  .three-column {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 701px) and (max-width: 980px) {
